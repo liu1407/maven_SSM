@@ -11,7 +11,7 @@
     	<p class="title">用户名：<span class="username">${user.username}</span>已登录</p><br>
     	<a href="${basePath}/login/logout" id="login">退出登录</a>
     	
-    	<script type="text/javascript" src="${basePath}/resourse/js/jquery-1.11.2.min.js"></script>
+    	<script type="text/javascript" src="${basePath}/resource/js/jquery-1.11.2.min.js"></script>
     	<script type="text/javascript">
     		var basePath = "${basePath}";
     		if(isEmpty($(".username").text())){
